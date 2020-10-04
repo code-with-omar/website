@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	padding:0;
+	margin:0;
+}
+body,h1,h2,h3,h4,h5{
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	width:1150px;
+	text-align:justify;
+}
+.main_wrapper{
+	width:100%;
+	
+}
+
+.bg_header{
+	width:280px;
+	background:#F44336;
+	font-weight:bold;
+	min-height:100%;
+	position:fixed;
+	margin-right:40px;
+	float:left;
+	z-index:1;
+}
+.header h2{
+	padding-top:100px;
+	padding-left:20px;
+	color:#FFFFFF;
+	text-align:left;
+}
+.header ul{
+	width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+	margin-top:100px;
+}
+.header ul li{
+	list-style-type:none;
+	padding:20px;
+	width:220px;
+}
+.header ul li a{
+	left:0;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:25px;
+	
+}
+.header ul li:hover{
+	background-color:black;
+}
+.sub_main_wrapper{
+	margin-left:330px;
+	width:100%;
+}
+.text h1{
+	font-size:64px !important;
+	padding-top:72px;
+	color:#000000ad;
+
+}
+.text h2{
+	color:#f44336!important;
+	font-size:48px;
+}
+.border{
+	margin-top: 25px;
+    margin-bottom: 25px;
+    width: 58px;
+    height: 1px;
+    background: #f44336;
+    border-radius: 25px;
+    border: 5px solid #f44336;
+}
+.all_image{
+	width:1170px;
+}
+.left_img{
+	width:572px;
+	float:left;
+	margin-right:10px;
+}
+.indi_image img{
+	width:572px;
+	color:red;
+	cursor:pointer;
+	opacity:0.8;
+}
+.indi_image img:hover{
+	opacity:1;
+}
+.left_img{
+	width:572px;
+	float:left;
+}
+.line_gap{
+	padding-top:100px;
+}
+.personal_information{
+	overflow:hidden;
+	width:1170px;
+	margin-top: 20px;
+}
+.indi_information{
+	
+    width: 380px;
+    float: left;
+    margin-right: 10px;
+	background:#b8b9b775;
+}
+.indi_information h2{
+	width:380px;
+	padding:5px;
+	font-size:25px
+}
+.indi_information h3{
+	width:380px;
+	padding:5px;
+	font-size:20px;
+	color:F1F1F1;
+}
+.indi_information p{
+	width:380px;
+	font-size:15px;
+	text-align:justify;
+}
+.personal_img img{
+	width:380px;
+}
+.packages_prices{
+	overflow:hidden;
+	width:1170px;
+	margin-top:60px;
+}
+.basic{
+	width:500px;
+	float:left;
+	margin-right:50px;
+}
+.basic ul{
+	list-style:none;
+	background:#f1f1f1;
+}
+.basic ul li{
+	padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ddd;;
+}
+.basic ul li a{
+	text-decoration:none;
+	color:#0a727c;
+	padding:20px;
+	font-size:25px;
+	margin-left:130px;
+	
+}
+.basic_head{
+	width:500px;
+}
+.basic_head button{
+	width:500px;
+}
+.basic_head{
+	background:#616161;
+	color:white;
+	font-size:25px;
+	height:100px;
+	text-align:center;
+	padding-top:50px;
+}
+.active{
+	background:#f44336!important;
+	color:white;
+	font-size:25px;
+	height:100px;
+	text-align:center;
+	padding-top:50px;
+}
+.contact_login{
+	width:1170px;
+	margin-top:60px;
+}
+.contact_form{
+	margin-top:25px;
+}
+.contact_form p{
+	font-size:20px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.contact_form input{
+	width:1000px;
+	padding:25px;
+	font-size:25px;
+	color:green
+}
+.contact_form button{
+	width:1053px;
+	padding:25px;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:20px;
+	background:#f44336!important;
+	color:white;
+}
+.contact_form button:hover{
+	background:#ccc!important;
+	color:#000!important;
+}
+
+
+
+
+
+
+
